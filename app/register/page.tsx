@@ -9,7 +9,7 @@ export default function RegisterPage() {
   const handleRegister = (e: React.FormEvent) => {
     e.preventDefault();
     alert("Account successfully ban gaya! Ab login kariye.");
-    router.push('/login'); // Account banne ke baad login par bheja
+    router.push('/login');
   };
 
   return (
